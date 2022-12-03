@@ -28,7 +28,7 @@ fun main() {
         }
         return elvesCalories
             .sortedDescending()
-            .subList(0, 3)
+            .take(3)
             .sum()
     }
 
